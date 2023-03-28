@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
-
-import '../models.dart';
+import 'package:flutter_bloc_demo2/models.dart';
 
 @immutable
 abstract class LoginApiProtocol {

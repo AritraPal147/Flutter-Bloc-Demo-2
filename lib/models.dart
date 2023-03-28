@@ -17,6 +17,7 @@ class LoginHandle {
   int get hashCode => token.hashCode;
 
   // Overrides the toString() method to return a specific string
+  // Used for debugging -> to print the token in the console
   @override
   String toString() => 'LoginHandle (token = $token)';
 }
