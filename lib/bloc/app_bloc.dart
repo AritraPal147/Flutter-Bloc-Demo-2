@@ -6,7 +6,7 @@ import 'package:flutter_bloc_demo2/apis/notes_api.dart';
 import 'package:flutter_bloc_demo2/bloc/actions.dart';
 import 'package:flutter_bloc_demo2/bloc/app_state.dart';
 import 'package:flutter_bloc_demo2/models.dart';
-import 'package:flutter_bloc_demo2/strings.dart';
+import 'package:flutter_bloc_demo2/constants/strings.dart';
 
 // AppBloc is the bloc for our application, with event (input) as AppAction and state (output) as AppState
 class AppBloc extends Bloc<AppAction, AppState> {
