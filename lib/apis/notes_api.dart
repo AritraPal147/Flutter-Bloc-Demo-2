@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_bloc_demo2/models.dart';
+import 'package:flutter_bloc_demo2/models/models.dart';
 import 'package:flutter_bloc_demo2/constants/strings.dart';
 
 @immutable

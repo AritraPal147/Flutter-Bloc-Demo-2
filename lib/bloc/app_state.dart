@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_bloc_demo2/models.dart';
+import 'package:flutter_bloc_demo2/models/models.dart';
 
 // All the app states (outputs) are controlled by this class
 @immutable

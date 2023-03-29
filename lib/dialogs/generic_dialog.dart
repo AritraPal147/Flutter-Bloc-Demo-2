@@ -1,9 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 // renamed a function() that returns a map of string and generic type
 typedef DialogOptionBuilder<T> = Map<String, T?> Function();
 
+// Generic Dialog code
 Future<T?> showGenericDialog<T>({
   required BuildContext context,
   required String title,
