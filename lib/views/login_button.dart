@@ -29,7 +29,7 @@ class LoginButton extends StatelessWidget {
     return TextButton(
         onPressed: (){
           final email = emailController.text;
-          final password = emailController.text;
+          final password = passwordController.text;
           // Checks if either the email or the password fields or both are empty or not
           if (email.isEmpty || password.isEmpty) {
             showGenericDialog(

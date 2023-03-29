@@ -16,14 +16,14 @@ abstract class LoginApiProtocol {
 // A concrete implementation of LoginApiProtocol
 @immutable
 class LoginApi implements LoginApiProtocol {
-  // This is used to create a singleton. A singleton is needed because we are only using one login credential
-  const LoginApi._sharedInstance();
-  // Creation of singleton using static field
-  static const LoginApi _shared = LoginApi._sharedInstance();
-  // factory is a constructor that is used when we do not want to return a new instance of the class itself
-  // It is used here because only one instance of this class has to be created (singleton)
-  factory LoginApi.instance() => _shared;
-  // Singleton pattern completed
+  // // This is used to create a singleton. A singleton is needed because we are only using one login credential
+  // const LoginApi._sharedInstance();
+  // // Creation of singleton using static field
+  // static const LoginApi _shared = LoginApi._sharedInstance();
+  // // factory is a constructor that is used when we do not want to return a new instance of the class itself
+  // // It is used here because only one instance of this class has to be created (singleton)
+  // factory LoginApi.instance() => _shared;
+  // // Singleton pattern completed
 
   @override
   Future<LoginHandle?> login({

@@ -2,7 +2,7 @@ const emailOrPasswordEmptyDialogTitle =
     'Please fill both the email and password fields';
 
 const emailOrPasswordEmptyDescription =
-    'Either the Email or the Password field, or both are empty. Please fill all fields';
+    'Either the Email field or the Password field, or both are empty. Please fill all fields';
 
 const loginErrorDialogTitle = 'Login Error';
 const loginErrorDialogContent =
